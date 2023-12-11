@@ -36,7 +36,7 @@ We landed on using a logistic regression model to bind our final output to predi
 
 ### Final Product
 
-The final product can be found at [https://enm-final.web.app/](https://enm-final.web.app/) – please feel free to try it out! The source code for the website [here](https://github.com/pat-liu/enm-final) – most of the logic is in src/App.js, with our exported dataframe data from the Jupyter notebook analysis in the public/ directory (in the form of processed json maps: character_stage_map.json, characters.json, player_char_map.json, player_games_map.json, player_map.json). We hard-coded the final coefficients from our logistic regression model into the underlying frontend code itself.
+The final product can be found at [https://enm-final.web.app/](https://enm-final.web.app/) – please feel free to try it out! The source code for the website is [here](https://github.com/pat-liu/enm-final) – most of the logic is in src/App.js, with our exported dataframe data from the Jupyter notebook analysis in the public/ directory (in the form of processed json maps: character_stage_map.json, characters.json, player_char_map.json, player_games_map.json, player_map.json). We hard-coded the final coefficients from our logistic regression model into the underlying frontend code itself.
 
 ![Head](/assets/website.png)
 
